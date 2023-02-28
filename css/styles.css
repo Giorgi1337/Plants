@@ -62,3 +62,69 @@ ul {
     font-size: 16px;
     color: var(--orange-color);
 }
+
+.welcome {
+    min-height: 532px;
+    background-color: var(--bgcolor);
+}
+
+.welcome__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 62px 0;
+}
+
+.welcome__img {
+    width: 448px;
+    height: 407px;
+}
+
+.welcome__rigt__text {
+    min-width: 549px;
+    height: 340px;
+}
+
+.welcome h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--gray-color);
+    margin-bottom: 42px;
+}
+
+.welcome__span {
+    color: var(--green-color);
+}
+
+.welcome p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #636060;
+    margin-bottom: 48px;
+}
+
+.welcome__btn {
+    width: 158px;
+    height: 44px;
+    border: 2px solid #E06733;
+    border-radius: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.welcome__btn:hover {
+    background-color:#E06733;
+    color: #fff;
+}
