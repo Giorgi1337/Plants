@@ -128,3 +128,41 @@ ul {
     background-color:#E06733;
     color: #fff;
 }
+
+.about {
+    min-height: 666px;
+}
+
+.about__flex {
+    padding: 94px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text__left {
+    width: 605px;
+    height: 350px;
+}
+
+.about h1 {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    color: var(--green-color);
+    margin-bottom: 40px;
+}
+
+.about__span {
+    color: var(--orange-color);
+}
+
+.about p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060;
+}
